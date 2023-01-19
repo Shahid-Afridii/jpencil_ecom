@@ -1,7 +1,7 @@
-import Footer from '../Components/Footer'
-import Header from '../Components/Header'
-import MobileMenu from '../Components/MobileMenu'
-import Navbar from '../Components/Navbar'
+import Footer from '../components/Footer'
+import Header from '../components/Header'
+import MobileMenu from '../components/MobileMenu'
+import Navbar from '../components/Navbar'
 import React,{useState,useEffect} from "react"
 import '../styles/globals.css'
 
