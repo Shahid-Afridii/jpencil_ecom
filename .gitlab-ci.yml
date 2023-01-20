@@ -8,10 +8,10 @@ pages:
   - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
   - mkdir -p ~/.ssh
   - chmod 700 ~/.ssh
-  - ssh-keyscan -p 2296 $VM_IPADDRESS >> ~/.ssh/id_rsa
+  - ssh-keyscan $VM_IPADDRESS >> ~/.ssh/id_rsa
   - chmod 644 ~/.ssh/id_rsa
   script:
-  - ssh $SSH_USER@$VM_IPADDRESS "hostname && echo 'Welcome!!!' > welcome.txt"
+  - ssh $SSH_USER@$VM_IPADDRESS -p2296 "hostname && echo 'Welcome!!!' > welcome.txt"
   artifacts:
     paths:
     - public
