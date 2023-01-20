@@ -10,10 +10,11 @@ pages:
   - chmod 700 ~/.ssh
   - ssh-keyscan -p 2296 $VM_IPADDRESS >> ~/.ssh/known_hosts
   - chmod 644 ~/.ssh/known_hosts
-  script:
-  - ssh $SSH_USER@$VM_IPADDRESS -p2296 "hostname && echo 'from gitlab server' > welcome.txt"
   artifacts:
     paths:
     - public
   only:
   - develop
+  script:
+  # - ssh $SSH_USER@$VM_IPADDRESS -p2296 "hostname && echo 'from gitlab server' > welcome.txt"
+    - echo "the project directory is - $CI_PROJECT_DIR"
