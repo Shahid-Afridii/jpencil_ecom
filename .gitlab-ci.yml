@@ -1,4 +1,4 @@
-image: node:16.13.1-alpine
+image: node:16.15.0-alpine
 
 pages:
   stage: deploy
@@ -20,4 +20,3 @@ pages:
   # - echo "the project directory is - $CI_PROJECT_DIR"
     - npm install
     - npm build
-    - ls $CI_PROJECT_DIR
