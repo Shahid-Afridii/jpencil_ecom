@@ -17,5 +17,5 @@ pages:
     - develop
   script:
     #- echo "the project directory is - $CI_PROJECT_DIR"
-    #- cat $CI_PROJECT_DIR/README.md ; echo
-    - echo "and where am I? - $PWD"
+    - cat $CI_PROJECT_DIR/README.md ; echo
+    #- echo "and where am I? - $PWD"
