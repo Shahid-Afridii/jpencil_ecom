@@ -19,3 +19,4 @@ pages:
   # - ssh $SSH_USER@$VM_IPADDRESS -p2296 "hostname && echo 'from gitlab server' > welcome.txt"
   # - echo "the project directory is - $CI_PROJECT_DIR"
     - npm install
+    - npm run build
