@@ -3,7 +3,7 @@ image: node:16.13.1-alpine
 pages:
   stage: deploy
   before_script:
-  - 'command -v ssh-agent >/dev/null || ( apk add --update openssh && apk add nodejs=16.13.1)' 
+  - 'command -v ssh-agent >/dev/null || ( apk add --update openssh )' 
   - eval $(ssh-agent -s)
   - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
   - mkdir -p ~/.ssh
