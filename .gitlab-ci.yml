@@ -9,6 +9,7 @@ cache:
 pages:
   stage: build
   before_script:
+  - apt-get update -y
   - 'command -v ssh-agent >/dev/null || ( apk add --update openssh )' 
   - eval $(ssh-agent -s)
   - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
