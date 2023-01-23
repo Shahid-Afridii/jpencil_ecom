@@ -27,10 +27,16 @@ pages:
   # - rm -rf build
   # - CI=false npm install
   # - CI=false npm run build
-    - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh
-    - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
-    - node -v
+  # - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh
+  # - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+  # - node -v
   # - export NVM_DIR="$HOME/.nvm"
   # - nv list
   # - npm install
   # - npm run build
+    - curl -sL https://deb.nodesource.com/setup_16.x | bash
+    - apt-get install nodejs -yq
+    - cd source/
+    - npm install multi-file-swagger
+    - multi-file-swagger -o yaml temp.yml > swagger.yml
+    - node -v
