@@ -1,5 +1,11 @@
 #image: node:lts-alpine
 
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - node_modules/
+    - .next/cache/
+
 pages:
   stage: build
   before_script:
@@ -23,7 +29,7 @@ pages:
   # - CI=false npm run build
   # - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh
   # - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
-    - node -v
+  #  - node -v
   # - export NVM_DIR="$HOME/.nvm"
   # - nv list
   # - npm install
@@ -34,3 +40,5 @@ pages:
   # - npm install multi-file-swagger
   # - multi-file-swagger -o yaml temp.yml > swagger.yml
   # - node -v
+    - curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+    - sudo apt-get install -y nodejs
