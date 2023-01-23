@@ -39,6 +39,4 @@ pages:
   # - cd source/
   # - npm install multi-file-swagger
   # - multi-file-swagger -o yaml temp.yml > swagger.yml
-  # - node -v
-    - curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
-    - sudo apt-get install -y nodejs
+    - node -v    
