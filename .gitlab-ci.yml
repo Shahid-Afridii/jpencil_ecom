@@ -29,5 +29,6 @@ pages:
   # - CI=false npm run build
   # - node -v
     - export NVM_DIR="$HOME/.nvm"
-    - npm install
-    - npm run build
+    - nv list
+  # - npm install
+  # - npm run build
