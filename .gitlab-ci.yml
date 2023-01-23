@@ -3,7 +3,6 @@
 pages:
   stage: build
   before_script:
-  - sudo apt-get update -y
   - 'command -v ssh-agent >/dev/null || ( apk add --update openssh )' 
   - eval $(ssh-agent -s)
   - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
@@ -29,9 +28,9 @@ pages:
   # - nv list
   # - npm install
   # - npm run build
-    - curl -sL https://deb.nodesource.com/setup_16.x | bash
-    - apt-get install nodejs -yq
-    - cd source/
-    - npm install multi-file-swagger
-    - multi-file-swagger -o yaml temp.yml > swagger.yml
-    - node -v
+  # - curl -sL https://deb.nodesource.com/setup_16.x | bash
+  # - apt-get install nodejs -yq
+  # - cd source/
+  # - npm install multi-file-swagger
+  # - multi-file-swagger -o yaml temp.yml > swagger.yml
+  # - node -v
