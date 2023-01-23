@@ -1,10 +1,4 @@
-image: node:lts-alpine
-
-cache:
-  key: ${CI_COMMIT_REF_SLUG}
-  paths:
-    - node_modules/
-    - .next/cache/
+#image: node:lts-alpine
 
 pages:
   stage: build
