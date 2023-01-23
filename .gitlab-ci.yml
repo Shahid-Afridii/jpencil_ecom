@@ -29,10 +29,7 @@ pages:
   # - CI=false npm run build
     - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh
     - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
-    - source ~/.bashrc
-    - nvm install v16.13.1
-    - nvm use v16.13.1
-    - node -v
+    - ls -la
   # - export NVM_DIR="$HOME/.nvm"
   # - nv list
   # - npm install
