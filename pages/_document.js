@@ -3,7 +3,7 @@ import { Html, Head, Main, NextScript } from 'next/document'
 export default function Document() {
   return (
     <Html>
-      <title >J Pencil</title>
+      <title >J Pencil Pvt Ltd</title>
       <Head >
         <meta name="description" content="Product by Jpencil" />
       <link rel="shortcut icon" href="favi.jpg" />
