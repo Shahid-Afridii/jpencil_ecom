@@ -7,7 +7,7 @@ const SignIn = () => {
                 <div className='container py-16 '>
                             <div className="max-w-lg mx-auto px-6 py-7 rounded overflow-hidden shadow">
                                 <h2 className='text-2xl uppercase font-medium mb-1'>Login</h2>
-                                <p className='text-gray-600 mb-6 text-sm'>Login if you are a returning customer</p>
+                                <p className='text-gray-600 mb-6 text-sm'>Login if you are  returning customer</p>
 
                                 <form action="">
                                     <div className="space-y-4">
