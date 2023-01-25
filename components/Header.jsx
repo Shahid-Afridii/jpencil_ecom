@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <>
       {/* Start Header */}
-      <header className="sticky top-0 z-50 py-4 shadow-sm bg-primary-100 lg:bg-white">
+      <header className="sticky top-0 z-50 py-4 shadow-sm bg-violet-100 lg:bg-white">
         <div className="container flex items-center justify-between">
           {/* Start Logo */}
           <Link href="" className="block w-40">
