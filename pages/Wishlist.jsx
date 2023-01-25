@@ -18,7 +18,7 @@ const Wishlist = () => {
             <span className="text-sm text-gray-500">
               <i className="fas fa-chevron-right "></i>
             </span>
-            <p className="text-gray-500  font-medium uppercase  ">My Wishlist</p>
+            <p className="text-gray-500  font-medium uppercase  "> Wishlist</p>
           </div>
         </div>
       </div>
