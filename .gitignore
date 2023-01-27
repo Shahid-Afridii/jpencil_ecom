@@ -6,4 +6,4 @@
 # Node artifact files
 node_modules/
 .next/
-
+.vscode/
