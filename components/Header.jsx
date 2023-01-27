@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <>
       {/* Start Header */}
-      <header className="sticky top-0 z-50 py-4 shadow-sm bg-pink-100 lg:bg-white">
+      <header className="sticky top-0 z-50 py-4 shadow-sm bg-violet-100 lg:bg-white">
         <div className="container flex items-center justify-between">
           {/* Start Logo */}
           <Link href="" className="block w-40">
@@ -52,7 +52,7 @@ const Header = () => {
                             Cart
                         </div>
                     </Link>
-                    <Link href="#" className="text-center text-gray-700 hover:text-primary transition relative " >
+                    <Link href="/User" className="text-center text-gray-700 hover:text-primary transition relative " >
                         
                         <div className="text-2xl ">
                 <i className="fas fa-user"></i>

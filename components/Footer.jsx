@@ -119,7 +119,7 @@ const Footer = () => {
 {/* End Footer */}
 
 {/* Start Copyright */}
-    <div className='bg-pink-500 py-4'>
+    <div className='bg-primary py-4'>
                 <div className='container flex items-center justify-between'>
                                 <p className='text-white font-semibold font-poppins'>
                                 ⓒ JPencil Pvt Ltd {currentYear}
