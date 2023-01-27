@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from "next/image"; 
 import Link from "next/link";
-import user from "../public/images/user.jpeg"
+// import user from "../public/images/user.jpeg"
 const Address = () => {
   return (
     <>
@@ -28,7 +28,7 @@ const Address = () => {
                                     {/* Start User Profile */}
                                     <div className='px-4 py-3 shadow flex bg-gray-100 items-center gap-4'>
                                         <div className="flex-shrink-0">
-                                            <Image src={user} className="rounded-full w-14 h-14 p-1 border border-gray-200 object-cover"/>
+                                            <Image src="" className="rounded-full w-14 h-14 p-1 border border-gray-200 object-cover"/>
                                         </div>
                                         <div>
                                             <p className='text-gray-600'>Hello..</p>

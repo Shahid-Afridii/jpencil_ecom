@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import user from "../public/images/user.jpeg";
+// import user from "../public/images/user.jpeg";
 const ChangePassword = () => {
   return (
     <>
@@ -27,7 +27,7 @@ const ChangePassword = () => {
           <div className="px-4 py-3 shadow flex bg-gray-100 items-center gap-4">
             <div className="flex-shrink-0">
               <Image
-                src={user}
+                src=""
                 className="rounded-full w-14 h-14 p-1 border border-gray-200 object-cover"
               />
             </div>
