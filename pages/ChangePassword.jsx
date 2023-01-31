@@ -34,7 +34,7 @@ const ChangePassword = () => {
             <div>
               <p className="text-gray-600">Hello..</p>
               <h4 className="text-gray-800 font-poppins capitalize font-semibold">
-                Shahid Afridi..!
+                Shahid Afridi...!
               </h4>
             </div>
           </div>
