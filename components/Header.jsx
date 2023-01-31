@@ -9,7 +9,7 @@ const Header = () => {
       <header className="sticky top-0 z-50 py-4 shadow-sm bg-violet-100 lg:bg-white">
         <div className="container flex items-center justify-between">
           {/* Start Logo */}
-          <Link href="" className="block w-40">
+          <Link href="/" className="block w-40">
             <Image src={logo} alt="data" className="full" />
           </Link>
           {/* End Logo */}
