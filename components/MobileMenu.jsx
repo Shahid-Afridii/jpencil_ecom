@@ -2,7 +2,7 @@ import React from 'react'
 import Link from "next/link";
 import Image from "next/image";
 import icon1 from "../public/images/icons/ring.gif"
-import icon2 from "../public/images/icons/paint-palette.gif"
+import icon2 from "../public/images/icons/jewelry.gif"
 import icon3 from "../public/images/icons/sculpture.gif"
 import icon4 from "../public/images/icons/balloon.gif"
 import icon6 from "../public/images/icons/jewelry.gif"

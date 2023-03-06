@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../public/images/jpencil.png";
+import logo from "../public/images/flogo.png";
 const Header = () => {
   return (
     <>
@@ -41,7 +41,7 @@ const Header = () => {
                         </div>
                     </Link>
 
-                    <Link href="#" className="hidden lg:block text-center text-gray-700 hover:text-primary transition relative " >
+                    <Link href="/Cart" className="hidden lg:block text-center text-gray-700 hover:text-primary transition relative " >
                         <span className="absolute -right-2 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs">
                         5
                         </span>
